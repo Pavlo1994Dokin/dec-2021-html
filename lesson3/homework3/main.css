@@ -1,0 +1,42 @@
+#container {
+  background: silver;
+}
+
+.header {
+    height: 50px;
+    width: 300px;
+    background: yellow;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.menu {
+    height: 300px;
+    width: 100px;
+    background: wheat;
+    border: 2px solid black;
+}
+
+.post {
+    height: 300px;
+    width: 200px;
+}
+
+.body {
+    display: flex;
+}
+
+.post-blok {
+    height: 150px;
+    width: 200px;
+    background: #fda901;
+    border: 2px solid black;
+
+}
+
+.footer {
+    height: 50px;
+    width: 300px;
+    background: yellow;
+    border: 2px solid black;
+}
