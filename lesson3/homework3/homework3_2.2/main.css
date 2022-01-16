@@ -1,0 +1,58 @@
+.all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteiner {
+    height: 1000px;
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.widgest {
+
+    height: 200px;
+    width: 580px;
+    background: #2167b7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+#widgest_big {
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.big, .bigger, .buge {
+    height: 180px;
+    width: 180px;
+    background: #16457a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.botton {
+    height: 580px;
+    width: 580px;
+    background: #2269ba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+}
