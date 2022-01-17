@@ -1,38 +1,75 @@
-#conteiner {
-
+body {
+    margin: 0;
 }
 
-#top {
-}
-
-#2blok {
+.all {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.left, .right {
+#conteiner {
+    width: 610px;
+    height: 1200px;
+}
+
+#head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home {
     height: 600px;
     width: 300px;
-    background: #6394eb;
+    background: #2269ba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
+.about {
+    height: 600px;
+    width: 300px;
+    background: #2269ba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
 
-#1 {
+#kabobs1 {
+    height: 310px;
+    display: flex;
+    align-items: flex-end;
 
 }
 
-.bodu_1 {
+.kabob {
     height: 300px;
-    width: 600px;
-    background: #6394eb;
+    width: 610px;
+    background: #2269ba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 #botton {
+    height: 207px;
+    width: 610px;
     display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
-.shushka, .BBQ, .summer {
-    height: 300px;
-    width: 300px;
-    background: #6394eb;
+.shishkabobs, .BBQ_kabobs, .Summer_kabobs {
+    height: 196px;
+    width: 196px;
+    background: #16457a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
-
