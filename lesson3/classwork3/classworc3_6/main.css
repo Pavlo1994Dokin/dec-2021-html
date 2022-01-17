@@ -1,0 +1,39 @@
+#conteiner {
+
+}
+
+#top {
+}
+
+#2blok {
+    display: flex;
+    flex-direction: column;
+}
+
+.left, .right {
+    height: 600px;
+    width: 300px;
+    background: #6394eb;
+}
+
+
+#1 {
+
+}
+
+.bodu_1 {
+    height: 300px;
+    width: 600px;
+    background: #6394eb;
+}
+
+#botton {
+    display: flex;
+}
+
+.shushka, .BBQ, .summer {
+    height: 300px;
+    width: 300px;
+    background: #6394eb;
+}
+
