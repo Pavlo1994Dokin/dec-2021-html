@@ -7,7 +7,6 @@
 
 #2blok {
     display: flex;
-    flex-direction: column;
 }
 
 .left, .right {
