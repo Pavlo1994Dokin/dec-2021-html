@@ -1,0 +1,91 @@
+#father {
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner {
+    height: 630px;
+    width: 930px;
+    background: #cbd6df;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.top {
+    box-sizing: border-box;
+    height: 300px;
+    width: 900px;
+    background: #ccd7e0;
+    border: 3px solid #92b8ca;
+    border-radius: 25px;
+    margin-top: 5px;
+
+}
+
+.top1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.inside_box {
+    height: 150px;
+    width: 150px;
+    background: #102b3e;
+    border-radius: 10px;
+}
+
+.top2 {
+    height: 300px;
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.botton {
+    height: 300px;
+    width: 930px;
+    background: #102b3e;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botton1 {
+    height: 250px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 15px;
+    color: #cbd6df;
+}
+
+.in_botton {
+    height: 100px;
+    width: 100px;
+    background: silver;
+    border-radius: 50%;
+
+}
+.botton2 {
+    height: 250px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border: 3px solid #58819a;
+    margin-top: 15px;
+    color: #cbd6df;
