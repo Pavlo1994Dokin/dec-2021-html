@@ -1,0 +1,115 @@
+
+.father {
+    width: 510px;
+    height: 730px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heads {
+    height: 60px;
+    width: 504px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head {
+    width: 505px;
+    height: 50px;
+    background: #54d4ea;
+}
+
+.top_body {
+    height: 500px;
+    width: 510px;
+    display: flex;
+}
+
+.hero {
+    height: 200px;
+    width: 210px;
+    background: #d6c8e2;
+}
+
+.sidebar {
+    height: 300px;
+    width: 210px;
+    background: #9ec263;
+}
+
+.body_right {
+    width: 310px;
+    height: 510px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.body_left {
+    height: 510px;
+    width: 210px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main {
+    height: 400px;
+    width: 290px;
+    background: #f4c532;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.extra {
+    height: 100px;
+    width: 290px;
+    background: #888888;
+}
+
+.botton1 {
+    height: 150px;
+    width: 510px;
+    display: flex;
+    align-items: center;
+}
+
+.related {
+    width: 300px;
+    height: 100px;
+    background: #2bb573;
+    margin-right: 5px;
+}
+
+.posts {
+    width: 200px;
+    height: 100px;
+    background: #f2cbdd;
+}
+
+.footer {
+    width: 505px;
+    height: 50px;
+    background: #fca401;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.botton {
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fot {
+    height: 60px;
+    width: 510px;
+}
