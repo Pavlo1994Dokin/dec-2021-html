@@ -66,7 +66,7 @@
 @media screen and (min-width: 0px) and (max-width: 576px) {
     .conteiner {
         width: 320px;
-        height: 550px;
+        height: 610px;
         display: flex;
         align-items: center;
 
