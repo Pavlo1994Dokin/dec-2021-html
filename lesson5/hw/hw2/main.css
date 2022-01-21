@@ -66,9 +66,8 @@
 @media screen and (min-width: 0px) and (max-width: 576px) {
     .conteiner {
         width: 320px;
-        height: 610px;
+        height: 640px;
         display: flex;
-        align-items: center;
 
     }
 
@@ -79,8 +78,10 @@
     }
 
     .botton {
+        width: 320px;
+        height: 300px;
         display: flex;
-        flex-direction: column;
+        flex-direction: column;;
 
     }
 
