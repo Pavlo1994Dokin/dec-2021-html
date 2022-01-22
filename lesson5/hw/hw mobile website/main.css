@@ -1,0 +1,123 @@
+.father {
+
+}
+
+h6 {
+    margin: 7px 0;
+    color: #d77979;
+}
+
+p {
+    margin: 0;
+}
+
+
+.text {
+    background: #676767;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.top {
+    height: 60px;
+    width: 510px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 50px;
+    width: 100px;
+
+}
+
+.header {
+    height: 50px;
+    width: 400px;
+
+}
+
+.nav3 {
+    height: 500px;
+    width: 100px;
+}
+
+.store8 {
+    height: 50px;
+    width: 100px;
+
+}
+
+.tools9 {
+    height: 60px;
+    width: 100px;
+}
+
+.left {
+    height: 630px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bath4 {
+    height: 250px;
+    width: 295px;
+}
+
+.ad5 {
+    height: 250px;
+    width: 95px;
+}
+
+.bodies {
+    width: 510px;
+    height: 630px;
+    display: flex;
+}
+
+.right_top {
+    width: 400px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.types6 {
+    height: 370px;
+    width: 295px;
+}
+
+.related7 {
+    height: 370px;
+    width: 95px;
+}
+
+.right_botton {
+    height: 380px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.foot10 {
+    width: 510px;
+    height: 120px;
+}
+
+.footers {
+    height: 130px;
+    width: 510px;
+    display: flex;
+    align-items: flex-end;
+}
+
+@media screen and (min-width: 0px) and (max-width: 576px) {
+
+
+}
