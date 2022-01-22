@@ -118,6 +118,79 @@ p {
 }
 
 @media screen and (min-width: 0px) and (max-width: 576px) {
+.father{
+    height: 895px;
+}
 
+.logo{
+    height: 50px;
+    width: 50px;
+}
+    .header{
+        height: 50px;
+        width: 150px;
+    }
+    .top{
+        height: 50px;
+        width: 205px;
+        display: flex;
+    }
+    .nav3{
+        width: 205px;
+        height: 50px;
+    }
+    .top{
+        width: 205px;
+        height: 55px;
+    }
+    .bath4{
+        width: 150px;
+        height: 150px;
+    }
+    .ad5{
+        width: 50px;
+        height: 150px;
+    }
+    .right_top{
+        height: 155px;
+        width: 205px;
+        display: flex;
+        align-items: flex-end;
 
+    }
+    .bodies{
+        display: flex;
+        flex-direction: column;
+    }
+    .store8 , .tools9 {
+        display: none;
+    }
+    .left{
+        height: 55px;
+    }
+    .types6{
+        height: 400px;
+        width: 205px;
+    }
+    .related7{
+        width: 205px;
+        height: 100px;
+    }
+    .right_botton{
+        height: 505px;
+        width: 205px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    /*.foot10{*/
+    /*    width: 205px;*/
+    /*    height: 100px;*/
+    /*}*/
+    /*.footers{*/
+    /*    width: 205px;*/
+    /*    height: 105px;*/
+    /*    display: flex;*/
+    /*    align-items: flex-end;*/
+    /*}*/
 }
