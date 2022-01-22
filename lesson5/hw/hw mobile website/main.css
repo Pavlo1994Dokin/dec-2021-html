@@ -1,5 +1,5 @@
 .father {
-
+    width: 510px;
 }
 
 h6 {
@@ -123,7 +123,7 @@ p {
     justify-content: space-evenly;
 }
 
-@media screen and (min-width: 576px) and (max-width: 1400px) {
+@media screen and (min-width: 576px) and (max-width: 2400px) {
     .stores8, .tool9 {
         display: none;
     }
