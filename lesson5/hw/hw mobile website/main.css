@@ -11,7 +11,6 @@ p {
     margin: 0;
 }
 
-
 .text {
     background: #676767;
     display: flex;
@@ -31,13 +30,11 @@ p {
 .logo {
     height: 50px;
     width: 100px;
-
 }
 
 .header {
     height: 50px;
     width: 400px;
-
 }
 
 .nav3 {
@@ -48,7 +45,6 @@ p {
 .store8 {
     height: 50px;
     width: 100px;
-
 }
 
 .tools9 {
@@ -102,7 +98,6 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-
 }
 
 .foot10 {
@@ -126,8 +121,6 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-
-
 }
 
 @media screen and (min-width: 576px) and (max-width: 1400px) {
@@ -166,7 +159,6 @@ p {
         height: 50px;
     }
 
-
     .bodies {
         height: 710px;
         display: flex;
@@ -188,14 +180,11 @@ p {
         width: 205px;
         display: flex;
         align-items: flex-end;
-
     }
-
 
     .store8, .tools9 {
         display: none;
     }
-
 
     .types6 {
         height: 400px;
