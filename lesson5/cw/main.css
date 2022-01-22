@@ -124,7 +124,14 @@
     height: 70px;
     background: silver;
 }
-.blok51{
+
+.blok52 {
+    width: 130px;
+    height: 70px;
+    background: silver;
+}
+
+.blok51 {
     height: 20px;
     width: 100px;
     background: silver;
@@ -141,6 +148,12 @@
 }
 
 .blok6 {
+    width: 80px;
+    height: 40px;
+    background: silver;
+    margin-top: 10px;
+}
+.blok61 {
     width: 80px;
     height: 40px;
     background: silver;
@@ -179,4 +192,140 @@
     width: 70px;
     height: 20px;
     background: silver;
+}
+
+@media screen and (min-width: 0px) and (max-width: 756px) {
+
+    .top {
+        width: 200px;
+        height: 40px;
+        border: 5px solid black;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .bloks1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .blok1 {
+        width: 50px;
+        height: 10px;
+        background: silver;
+
+    }
+
+    .circle1 {
+        position: relative;
+        bottom: 28px;
+    }
+
+    .bloks2 {
+        width: 50px;
+        height: 100px;
+        position: absolute;
+        top: 50px;
+        left: 45px;
+        border: 5px dotted black;
+    }
+
+    .blok2 {
+        width: 40px;
+        height: 30px;
+    }
+
+    .circle2 {
+        top: 30px;
+        left: -17px;
+    }
+
+    .bloks3 {
+        width: 200px;
+        height: 100px;
+        border-left: 5px solid black;
+    }
+
+    .blok3 {
+        width: 185px;
+        height: 85px;
+    }
+
+    .circle3 {
+        top: 137px;
+    }
+
+    .bloks4 {
+        width: 200px;
+        height: 200px;
+        border-left: 5px solid black;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .blok4 {
+        width: 90px;
+        height: 70px;
+    }
+
+    .bloks5 {
+        width: 200px;
+        height: 300px;
+        border-left: 5px solid black;
+    }
+
+    .blok5 {
+        width: 90px;
+        height: 80px;
+    }
+
+    .blok52 {
+        display: none;
+    }
+
+    .blok51 {
+        height: 20px;
+    }
+
+    .bloks6 {
+        width: 200px;
+        height: 150px;
+        border-left: 5px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+
+
+    }
+    .bloks5_6{
+        display: flex;
+        flex-direction: column;
+    }
+    .blok61 {
+        width: 60px;
+        height: 126px;
+    }
+    .blok6{
+        width: 98px;
+        height: 35px;
+        margin-left: 5px;
+    }
+
+    .circle6 {
+        position: relative;
+        top: 58px;
+        left: 80px;
+    }
+    .bloks7 {
+        width: 200px;
+        height: 60px;
+        border-left: 5px solid black;
+    }
+    .blok7{
+        width: 180px;
+    }
 }
