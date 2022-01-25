@@ -72,6 +72,66 @@
     justify-content: space-between;
 }
 
+.header_content {
+    padding: 154px 0;
+}
+
+.heder_content__title {
+    width: 436px;
+    height: 256px;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 64px;
+    letter-spacing: 0.6px;
+    color: var(--hex-color);
+}
+
+.heder_content__text {
+    width: 436px;
+    height: 96px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 32px;
+    margin-bottom: 38px;
+    color: var(--hex-color);
+}
+
+.header_btn1 {
+    width: 163px;
+    height: 54px;
+    background-color: #f8c501;
+    color: var(--hex-color);
+    cursor: pointer;
+    transition: box-shadow .35s;
+}
+
+.header_btn1:hover {
+    box-shadow: -4px 6px 18px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -4px 6px 18px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -4px 6px 18px -1px rgba(0, 0, 0, 0.75);
+}
+
+.header_btn2 {
+    width: 163px;
+    height: 54px;
+    background-color: #E5E5E5;
+    color: var(--hex-color);
+    margin-left: 16px;
+    cursor: pointer;
+    transition: box-shadow .35s;
+}
+
+.header_btn2:hover {
+    box-shadow: -4px 6px 18px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -4px 6px 18px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -4px 6px 18px -1px rgba(0, 0, 0, 0.75);
+}
+
+.header_content__img {
+    height: 886px;
+    margin-bottom: 189px;
+}
 
 .photo {
     position: relative;
@@ -79,3 +139,139 @@
     right: 102px;
 }
 
+
+.header_botton__title {
+    width: 547px;
+    height: 96px;
+    margin-bottom: 59px;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: var(--hex-color);
+}
+
+.header_botton {
+    margin-bottom: 192px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__product_card {
+    display: flex;
+    width: 1376px;
+    height: 494px;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-bottom: 191px;
+    background: #51CEBC;
+    border-radius: 10px;
+}
+
+.header__product_card > img {
+    width: 678px;
+}
+
+.header__product_card > div > h3 {
+    margin: 114px 121px 35px 20px;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.34px;
+    color: var(--hex-color);
+}
+
+.header__product_card > div > p {
+    margin: 0 145px 161px 20px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    color: var(--hex-color);
+}
+
+.inner__box {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__onboarding_product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__onboarding_product > h3 {
+    width: 711px;
+    margin-bottom: 57px;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.34px;
+    color: var(--hex-color);
+}
+
+.header__onboarding__btn {
+    width: 163px;
+    height: 54px;
+    margin-top: 113px;
+    margin-bottom: 176px;
+    background-color: #f8c501;
+    color: var(--hex-color);
+    cursor: pointer;
+    transition: box-shadow .35s;
+}
+
+.header__onboarding__btn:hover {
+    box-shadow: -4px 6px 18px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -4px 6px 18px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -4px 6px 18px -1px rgba(0, 0, 0, 0.75);
+}
+
+.header__violet_card {
+    height: 537px;
+    width: 1260px;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-left: 148px;
+    background: #BD78F0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header__violet_card > img {
+    width: 562px;
+    height: 409px;
+    position: relative;
+    right: 136px;
+}
+
+.header__violet_card > div > h3 {
+    box-sizing: border-box;
+    padding: 103px 193px 35px 0;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: 0.42px;
+    color: var(--hex-color);
+}
+
+.header__violet_card > div > p {
+    padding: 0 128px 147px 0;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+    color: var(--hex-color);
+}
+
+.header__violet__text {
+    display: flex;
+    flex-direction: column;
+}
