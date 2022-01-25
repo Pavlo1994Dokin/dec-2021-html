@@ -11,12 +11,15 @@
 }
 
 .wrapper {
-    max-width: 1368px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
+
 .top_bar {
     height: 83px;
+    max-width: 1368px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -55,7 +58,7 @@
     background-color: var(--hex-color);
     color: #ffffff;
     cursor: pointer;
-    transition: box-shadow.35s;
+    transition: box-shadow .35s;
 }
 
 .nav_btn:hover {
@@ -64,6 +67,15 @@
     -moz-box-shadow: -4px 6px 18px -1px rgba(0, 0, 0, 0.75);
 }
 
-.header_wrap__content{
+.header_wrap__content {
     display: flex;
+    justify-content: space-between;
 }
+
+
+.photo {
+    position: relative;
+    bottom: 796px;
+    right: 102px;
+}
+
