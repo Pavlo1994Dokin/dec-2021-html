@@ -275,3 +275,221 @@
     display: flex;
     flex-direction: column;
 }
+
+.body_solution {
+    margin-left: 148px;
+}
+
+.body_solution__title > h6 {
+    margin-top: 136px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #6A7981;
+}
+
+.body_solution__title > h2 {
+    padding: 13px 699px 26px 0;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: 0.42px;
+    color: var(--hex-color);
+}
+
+.body_solution__title > p {
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    color: #375361;
+}
+
+.body_solution__products {
+    margin-top: 226px;
+}
+
+.body_solution__product_cards {
+    display: flex;
+    margin-bottom: 121px;
+}
+
+.cards__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cards__content > img {
+    width: 40px;
+    height: 40px;
+}
+
+.cards__content > h2 {
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.34px;
+    color: var(--hex-color);
+}
+
+.cards__content > p {
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+    padding-right: 263px;
+    color: var(--hex-color);
+}
+
+.cards__content > button {
+    width: 144px;
+    height: 54px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black-color);
+    cursor: pointer;
+    transition: box-shadow .35s;
+}
+
+.cards__content > button:hover {
+    box-shadow: -4px 6px 18px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -4px 6px 18px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -4px 6px 18px -1px rgba(0, 0, 0, 0.75);
+}
+
+.body_solution__btn {
+    position: relative;
+    bottom: 110px;
+
+}
+
+.body_solution_btn_in {
+    width: 228px;
+    height: 23px;
+    margin-right: 8px;
+    background: #E7EAEB;
+    border-radius: 4px;
+    color: #61757E;
+}
+
+.body_solution_btn_in2 {
+    width: 147px;
+    height: 23px;
+    margin-right: 8px;
+    background: #E7EAEB;
+    border-radius: 4px;
+    color: #61757E;
+}
+
+.body_solution_btn_concept {
+    width: 152px;
+    height: 23px;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: #FE9F28;
+    border-radius: 4px;
+}
+
+.body_features {
+    height: 960px;
+    margin-top: 152px;
+    padding: 96px 122px 94px 122px;
+    background-color: #f1ece6;
+}
+
+.body_features__title > p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #375361;
+
+}
+
+.body_features__title > h1 {
+    height: 128px;
+    padding-right: 175px;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 64px;
+    letter-spacing: 0.6px;
+    color: var(--hex-color);
+}
+
+.body_features__title > img {
+    margin-top: 142px;
+}
+
+.body_features__content {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body_features__txt {
+    margin-left: 224px;
+}
+
+.body_features__text1 {
+    width: 588px;
+    height: 57px;
+    margin-top: 120px;
+    border-top: 2px solid #C9316F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body_features__text1 > h4 {
+    margin-top: 25px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--hex-color);
+}
+
+.юbody_features__text2 {
+    width: 563px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+    color: var(--hex-color);
+}
+
+.body_features__text2 >  p {
+    width: 100%;
+    margin: 36px 147px 36px 0;
+}
+
+.body_features__text2 > h6 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--hex-color);
+    margin-right: 8px;
+    margin-bottom: 22px;
+}
+
+.body_features__text3 {
+    width: 588px;
+    height: 80px;
+    margin-top: 22 ps;
+    border-top: 1px solid #C3CACD;
+    border-bottom: 1px solid #C3CACD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body_features__text3 > h4 {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--hex-color);
+
+}
